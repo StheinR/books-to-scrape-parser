@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 # Get the page
-source = requests.get('https://books.toscrape.com').text
+source = requests.get('https://skysmart.ru').text
 soup = BeautifulSoup(source, 'html.parser')
 # print(soup.prettify())
 
